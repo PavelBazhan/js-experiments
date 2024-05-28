@@ -11,6 +11,9 @@
     <div>
       <RouterLink :to="{ name: 'ClosuresView' }">ClosuresView</RouterLink>
     </div>
+    <div>
+      <RouterLink :to="{ name: 'FunctionObjectView' }">FunctionObjectView</RouterLink>
+    </div>
   </nav>
   <RouterView />
 </template>
